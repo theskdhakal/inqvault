@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { updateProfileACtion } from "../user/UserAction";
 import { CustomInput } from "../custom-input/CustomInput";
 import a1 from "../Assets/a1.jpg";
+import { useMediaQuery } from "react-responsive";
 
 export const EditProfile = () => {
   const [form, setForm] = useState({});
@@ -73,12 +74,14 @@ export const EditProfile = () => {
     },
   ];
 
+  const isMobile = useMediaQuery({ maxWidth: 450 });
+
   return (
     <Container className="pb-2">
       <Form
         onSubmit={handleOnSubmit}
         className="border p-5 shadow-lg rounded m-auto bg-light  "
-        style={{ width: "30vw" }}
+        style={{ width: isMobile ? "22rem" : "30vw" }}
       >
         <div className="d-flex justify-content-center align-item-center">
           <img src={a1} style={{ width: "11vw" }} />
