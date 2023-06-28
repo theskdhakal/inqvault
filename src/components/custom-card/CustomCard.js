@@ -37,7 +37,10 @@ export const CustomCard = ({ name, title, id, year, url, summary }) => {
               {name}-{year}
             </h5>
 
-            <Rating rate={rate} />
+            <Rating
+              rate={rate}
+              className="d-flex justify-content-center align-items-center"
+            />
           </Card.Text>
         </Card.Body>
       </Card>

@@ -7,7 +7,7 @@
 
 .avatar {
   border-radius: 10px;
-  width: 20%;
+  width: 20% !important;
   background: rgb(59, 128, 149);
   display: flex;
   justify-content: center;
@@ -38,4 +38,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 450px) {
+  .review {
+    width: 100%;
+    gap: 2rem;
+  }
+  .avatar {
+    width: 40%;
+  }
+
+  .review-content h3 {
+    font-size: 16px;
+  }
+
+  .review-content p {
+    font-size: 12px;
+  }
 }

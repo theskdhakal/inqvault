@@ -17,7 +17,7 @@ export const Rating = ({ rate = 5 }) => {
   const noStar = new Array(noRateStar).fill("");
 
   return (
-    <div className="text-warning d-flex gap-1 d-flex ">
+    <div className="text-warning d-flex gap-1 d-flex justify-content-center align-items-center">
       {fullStar.map(() => (
         <BsStarFill />
       ))}
