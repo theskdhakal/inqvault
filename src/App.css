@@ -266,6 +266,14 @@
   align-items: center;
 }
 
+@media (max-width: 450px) {
+  .charts {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6rem;
+  }
+}
+
 .message {
   height: 100px;
   width: 5ch;
@@ -286,6 +294,13 @@
 .gif {
   padding: 5px;
   width: 100%;
+}
+
+@media (max-width: 450px) {
+  .gif {
+    min-height: 40vh;
+    padding-top: 5rem;
+  }
 }
 
 .login {

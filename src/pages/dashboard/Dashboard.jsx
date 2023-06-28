@@ -12,6 +12,10 @@ export const Dashboard = () => {
       <UserLayout>
         <Container>
           <img src={library} className="gif" />
+          <h2 className="text-white px-5">
+            {" "}
+            Please Click on history menu to access your borrowing history
+          </h2>
         </Container>
       </UserLayout>
     );

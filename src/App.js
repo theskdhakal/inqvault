@@ -37,6 +37,10 @@ function App() {
     }
   });
 
+  useEffect(() => {
+    dispatch(getAllBookAction());
+  }, [dispatch]);
+
   const { book } = useSelector((state) => state.books);
 
   return (

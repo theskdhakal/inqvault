@@ -40,7 +40,7 @@ export const Chart = () => {
       </h3>
       <div className="charts">
         <BarChart
-          width={500}
+          width={450}
           height={300}
           data={data}
           margin={{
@@ -59,7 +59,7 @@ export const Chart = () => {
         </BarChart>
 
         <LineChart
-          width={500}
+          width={450}
           height={300}
           data={data}
           margin={{

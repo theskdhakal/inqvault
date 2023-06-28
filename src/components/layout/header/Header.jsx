@@ -27,7 +27,7 @@ export const Header = () => {
     });
   };
   return (
-    <Navbar expand="lg" className="navbar ">
+    <Navbar expand="lg" className="navbar " variant="dark">
       <Container>
         <Navbar.Brand>
           <Link Link to="/">
