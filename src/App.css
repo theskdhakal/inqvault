@@ -210,7 +210,7 @@
 }
 
 .scroll-wrapper img {
-  max-height: 500px !important;
+  height: 500px !important;
 }
 
 @media (max-width: 450px) {
