@@ -81,7 +81,7 @@ export const EditProfile = () => {
       <Form
         onSubmit={handleOnSubmit}
         className="border p-5 shadow-lg rounded m-auto bg-light  "
-        style={{ width: isMobile ? "22rem" : "30vw" }}
+        style={{ width: isMobile ? "20rem" : "30vw" }}
       >
         <div className="d-flex justify-content-center align-item-center">
           <img src={a1} style={{ width: "11vw" }} />
