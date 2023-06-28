@@ -1,0 +1,17 @@
+.carousel img {
+  max-height: 60vh;
+  object-fit: cover;
+}
+
+.text h3 {
+  color: rgb(252, 240, 2);
+  text-shadow: 1px 5px 10px rgb(7, 7, 7);
+  font-size: 40px;
+}
+.text p {
+  color: rgb(2, 255, 32);
+  text-shadow: 3px 8px 20px rgb(7, 13, 185);
+  font-style: italic;
+  font-size: 17px;
+  font-weight: bold;
+}
